@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LifesUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        for (int i = 0; i < GameManager.Instance.vida; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(true);
+        }
+
+        for (int i = GameManager.Instance.vida; i < 5; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
     }
 }

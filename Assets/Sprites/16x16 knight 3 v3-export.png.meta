@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: edfbfbdd2e46e9045954bf87a1b04425
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3391240743944287491
+    second: 16x16 knight 3 v3-export_0
+  - first:
+      213: -1906694015865480877
+    second: 16x16 knight 3 v3-export_1
+  - first:
+      213: 4109221738625954393
+    second: 16x16 knight 3 v3-export_2
+  - first:
+      213: -2008220749851535684
+    second: 16x16 knight 3 v3-export_3
+  - first:
+      213: -5606042377880442982
+    second: 16x16 knight 3 v3-export_4
+  - first:
+      213: -7589164180167789260
+    second: 16x16 knight 3 v3-export_5
+  - first:
+      213: -8793525461112880996
+    second: 16x16 knight 3 v3-export_6
+  - first:
+      213: 8865810045389645957
+    second: 16x16 knight 3 v3-export_7
+  - first:
+      213: -507823202289664665
+    second: 16x16 knight 3 v3-export_8
+  - first:
+      213: -1249192662069199647
+    second: 16x16 knight 3 v3-export_9
+  - first:
+      213: 3142185376340731039
+    second: 16x16 knight 3 v3-export_10
+  - first:
+      213: 1722136154868069762
+    second: 16x16 knight 3 v3-export_11
+  - first:
+      213: -3920479347276676774
+    second: 16x16 knight 3 v3-export_12
+  - first:
+      213: -4899681384857961302
+    second: 16x16 knight 3 v3-export_13
+  - first:
+      213: 5490756720336582078
+    second: 16x16 knight 3 v3-export_14
+  - first:
+      213: -508816595021440725
+    second: 16x16 knight 3 v3-export_15
+  - first:
+      213: -7418200966853648357
+    second: 16x16 knight 3 v3-export_16
+  - first:
+      213: 2201671557420061563
+    second: 16x16 knight 3 v3-export_17
+  - first:
+      213: 5701855365779971109
+    second: 16x16 knight 3 v3-export_18
+  - first:
+      213: -3505814176210663592
+    second: 16x16 knight 3 v3-export_19
+  - first:
+      213: 8610569327005588048
+    second: 16x16 knight 3 v3-export_20
+  - first:
+      213: -7877388929079120503
+    second: 16x16 knight 3 v3-export_21
+  - first:
+      213: 2603400829724995305
+    second: 16x16 knight 3 v3-export_22
+  - first:
+      213: -5220376785577544701
+    second: 16x16 knight 3 v3-export_23
+  - first:
+      213: 7904250098005932695
+    second: 16x16 knight 3 v3-export_24
+  - first:
+      213: -8090662387342193251
+    second: 16x16 knight 3 v3-export_25
+  - first:
+      213: 2876089565228351999
+    second: 16x16 knight 3 v3-export_26
+  - first:
+      213: -3070941649455018472
+    second: 16x16 knight 3 v3-export_27
+  - first:
+      213: -1252502392022789104
+    second: 16x16 knight 3 v3-export_28
+  - first:
+      213: -4229087876625631132
+    second: 16x16 knight 3 v3-export_29
+  - first:
+      213: -80438525417223045
+    second: 16x16 knight 3 v3-export_30
+  - first:
+      213: -1574083589225696429
+    second: 16x16 knight 3 v3-export_31
+  - first:
+      213: -601813928079763315
+    second: 16x16 knight 3 v3-export_32
+  - first:
+      213: -5111927423785199231
+    second: 16x16 knight 3 v3-export_33
+  - first:
+      213: 4651886463266088526
+    second: 16x16 knight 3 v3-export_34
+  - first:
+      213: 815680181348847898
+    second: 16x16 knight 3 v3-export_35
+  - first:
+      213: -639738573550350520
+    second: 16x16 knight 3 v3-export_36
+  - first:
+      213: 7813594772196029688
+    second: 16x16 knight 3 v3-export_37
+  - first:
+      213: -4562087664177848397
+    second: 16x16 knight 3 v3-export_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3245
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa8e5dc284efe0d0800000000000000
+      internalID: -3391240743944287491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 3245
+        width: 125
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35999f805ef0a85e0800000000000000
+      internalID: -1906694015865480877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_2
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3245
+        width: 125
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952fc125663e60930800000000000000
+      internalID: 4109221738625954393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_3
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 3245
+        width: 125
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6d7863edd5124e0800000000000000
+      internalID: -2008220749851535684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_4
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3245
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9766aec8265332b0800000000000000
+      internalID: -5606042377880442982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2804
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435faf2236fdda690800000000000000
+      internalID: -7589164180167789260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2804
+        width: 104
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908307ee2f17f580800000000000000
+      internalID: -8793525461112880996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_7
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 2797
+        width: 111
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5882a81634fa90b70800000000000000
+      internalID: 8865810045389645957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_8
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 2797
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db2d2fc79d3f8f0800000000000000
+      internalID: -507823202289664665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_9
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 2811
+        width: 139
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec375174e9f9aee0800000000000000
+      internalID: -1249192662069199647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_10
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 2811
+        width: 153
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946737a3f84b9b20800000000000000
+      internalID: 3142185376340731039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_11
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 2797
+        width: 139
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285b4c565b146e710800000000000000
+      internalID: 1722136154868069762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_12
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 2797
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5181542ec8a799c0800000000000000
+      internalID: -3920479347276676774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2349
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac72f67db5d00cb0800000000000000
+      internalID: -4899681384857961302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_14
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2349
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb530c75526133c40800000000000000
+      internalID: 5490756720336582078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_15
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 2349
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295ceda00250f8f0800000000000000
+      internalID: -508816595021440725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1901
+        width: 146
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10aa3226814d0990800000000000000
+      internalID: -7418200966853648357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1901
+        width: 146
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b739a14dd98ed8e10800000000000000
+      internalID: 2201671557420061563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1453
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c58f5de3f012f40800000000000000
+      internalID: 5701855365779971109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_19
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1453
+        width: 118
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8574f62d498d85fc0800000000000000
+      internalID: -3505814176210663592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_20
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1453
+        width: 244
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ada02ae23ee7770800000000000000
+      internalID: 8610569327005588048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_21
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1453
+        width: 237
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98de4a45184eda290800000000000000
+      internalID: -7877388929079120503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_22
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1453
+        width: 188
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee27bfd243212420800000000000000
+      internalID: 2603400829724995305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_23
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1453
+        width: 104
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30474f5e8fe7d87b0800000000000000
+      internalID: -5220376785577544701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_24
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1005
+        width: 125
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a7d7be59981bd60800000000000000
+      internalID: 7904250098005932695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 557
+        width: 125
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dcad4cc6138bf80800000000000000
+      internalID: -8090662387342193251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_26
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 557
+        width: 223
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1c4ada83ce9e720800000000000000
+      internalID: 2876089565228351999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_27
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 557
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e084227d2d165d0800000000000000
+      internalID: -3070941649455018472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_28
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 557
+        width: 188
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149723e5b73e9ee0800000000000000
+      internalID: -1252502392022789104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_29
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 557
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46871dd9bf24f45c0800000000000000
+      internalID: -4229087876625631132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_30
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 557
+        width: 188
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c004a569932eef0800000000000000
+      internalID: -80438525417223045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_31
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 557
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3533e61c05bb72ae0800000000000000
+      internalID: -1574083589225696429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_32
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 557
+        width: 188
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d885ce3cb6de5a7f0800000000000000
+      internalID: -601813928079763315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_33
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 557
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18994bb9719ce09b0800000000000000
+      internalID: -5111927423785199231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_34
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 557
+        width: 188
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e466c627712de8040800000000000000
+      internalID: 4651886463266088526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_35
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 557
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11df93adc0e15b00800000000000000
+      internalID: 815680181348847898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_36
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 557
+        width: 188
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8a6628213f17f0800000000000000
+      internalID: -639738573550350520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 109
+        width: 118
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4f79f0c077f6c60800000000000000
+      internalID: 7813594772196029688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 knight 3 v3-export_38
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 109
+        width: 104
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfdc7eb07530b0c0800000000000000
+      internalID: -4562087664177848397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
