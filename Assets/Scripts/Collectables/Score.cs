@@ -16,6 +16,7 @@ public class Score : MonoBehaviour
             score += 4 * Time.deltaTime;
             scoreText.text = ((int)score).ToString();
             //scoreText.text = GameManager.Instance.score.ToString();
+            GameManager.Instance.runScore += score;
         }
         
         /*
