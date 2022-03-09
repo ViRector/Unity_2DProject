@@ -34,7 +34,7 @@ public class Player_Controller : MonoBehaviour
 
         myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
 
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space) /* || Input.GetMouseButtonDown(0)*/ )
         {
             if (grounded)
             {

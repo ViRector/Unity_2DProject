@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
         if(vida <= 0)
         {
             this.gameObject.SetActive(false);
-            GameManager.Instance.score += EnemyScore;
+            GameManager.Instance.enemy1 ++;
         }
     }
 }
