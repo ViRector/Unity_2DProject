@@ -601,12 +601,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e59c9b5920fa26449c262477ed8506b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   vida: 0
   currency: 0
-  runScore: 2999
-  enemy1: 20
-  enemy2: 20
-  enemy3: 20
+  runScore: 0
+  enemy1: 0
+  enemy2: 0
+  enemy3: 0
   enemiesDestroyed: 0
   totalEnemyScore: 0
 --- !u!4 &546665964
@@ -1523,7 +1524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: Menu
-  restart: 
+  restart: Nivel
 --- !u!114 &1854152553
 MonoBehaviour:
   m_ObjectHideFlags: 0
