@@ -11,11 +11,14 @@ public class GameManager : MonoBehaviour
 
     public int vida;
     public int currency;
-
+    //Score
+    public float runScore;
     public int enemy1;
     public int enemy2;
     public int enemy3;
-
+    public int enemiesDestroyed;
+    public int totalEnemyScore;
+    //
     private void Awake()
     {
         if (Instance != null)
