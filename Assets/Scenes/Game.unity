@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 8196960003400124700, guid: eddb962277af3da46be202ce2a9e7b0b, type: 3}
-  pooledAmount: 2
+  pooledAmount: 5
 --- !u!1 &759631240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,7 +1954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 7163219960715176217, guid: ba52bb7ed3a18b746a66a7c87e0c7698, type: 3}
-  pooledAmount: 2
+  pooledAmount: 1
 --- !u!1 &1270237076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 9106089096380498017, guid: affd03d4f0a95c34bb5d734a6229e7e9, type: 3}
-  pooledAmount: 2
+  pooledAmount: 1
 --- !u!4 &1552660867
 Transform:
   m_ObjectHideFlags: 0
@@ -3374,7 +3374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 8271101902276616831, guid: 51668e63a84e1e3449a0354f00730bc5, type: 3}
-  pooledAmount: 2
+  pooledAmount: 1
 --- !u!1 &2042033202
 GameObject:
   m_ObjectHideFlags: 0
