@@ -1523,8 +1523,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14c4ce817d479a644adf71023ebedd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: Menu
-  restart: Nivel
+  menu: 
+  restart: Game
 --- !u!114 &1854152553
 MonoBehaviour:
   m_ObjectHideFlags: 0

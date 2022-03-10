@@ -7,6 +7,7 @@ public class Score : MonoBehaviour
 {
     public Text scoreText;
     private float score;
+    private int intScore;
 
     // Update is called once per frame
     void Update()
@@ -16,7 +17,9 @@ public class Score : MonoBehaviour
             score += 4 * Time.deltaTime;
             scoreText.text = ((int)score).ToString();
             //scoreText.text = GameManager.Instance.score.ToString();
-            GameManager.Instance.runScore += score;
+            intScore = Mathf.RoundToInt(score);
+
+            GameManager.Instance.runScore = intScore;
         }
         
         /*

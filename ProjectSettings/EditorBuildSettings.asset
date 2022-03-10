@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScenes/Eros/Menu.unity
     guid: 1c07109bab78f4a48979d26629b95b1b
   - enabled: 1
-    path: Assets/Scenes/Nivel.unity
+    path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/TestScenes/Eros/EndScene.unity
