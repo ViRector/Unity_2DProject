@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public int currency;
     //Score
     public float runScore;
+    public int penalty = 0;
     public int enemy1;
     public int enemy2;
     public int enemy3;

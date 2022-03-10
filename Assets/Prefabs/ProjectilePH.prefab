@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3108653312019078538}
   - component: {fileID: 5106421995567269279}
   - component: {fileID: 6050412240781510481}
-  - component: {fileID: 1642409475012505480}
+  - component: {fileID: 7460744707828801398}
+  - component: {fileID: 5387679168420655804}
   m_Layer: 0
   m_Name: ProjectilePH
   m_TagString: Bullet
@@ -97,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!61 &1642409475012505480
+--- !u!61 &7460744707828801398
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,5 +122,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.15}
+  m_Size: {x: 1.59, y: 1.52}
   m_EdgeRadius: 0
+--- !u!50 &5387679168420655804
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035876452068231650}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

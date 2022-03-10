@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     {
         if(collision.tag == "Bullet")
         {
+            Debug.Log("Me dio");
             vida -= 1;
             Destroy(collision.gameObject);
         }
