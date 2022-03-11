@@ -2600,6 +2600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 10
+  jumpTime: 0.5
   grounded: 0
   whatIsGround:
     serializedVersion: 2
