@@ -27,6 +27,7 @@ public class Enemy2Life : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             GameManager.Instance.enemy2++;
+            GameManager.Instance.enemiesDestroyed++;
         }
     }
 }
