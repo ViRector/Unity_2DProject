@@ -1417,7 +1417,7 @@ GameObject:
   - component: {fileID: 691917897}
   - component: {fileID: 691917898}
   - component: {fileID: 691917899}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Catcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3558,7 +3558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 9
   jumpTime: 0.5
   grounded: 0
   whatIsGround:
@@ -3606,7 +3606,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShootPoint: {fileID: 1507130529}
   ProjectilePref: {fileID: 3108653312019078538, guid: c62c8db78df2b554bb5b25d01b0bcc85, type: 3}
-  Penalty: 10
 --- !u!95 &1556952062
 Animator:
   serializedVersion: 3
@@ -4146,7 +4145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833341804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.97, z: 0}
+  m_LocalPosition: {x: 0, y: -0.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1556952058}

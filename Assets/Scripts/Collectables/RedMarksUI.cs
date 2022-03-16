@@ -16,5 +16,16 @@ public class RedMarksUI : MonoBehaviour
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }
+
+        if (GameManager.Instance.enemiesDestroyed == 10)
+        {
+            EDRestart();
+        }
+    }
+
+    private void EDRestart()
+    {
+        GameManager.Instance.enemiesDestroyed = 0;
+        GameManager.Instance.vida++;
     }
 }
