@@ -10,6 +10,9 @@ public class Player_Controller : MonoBehaviour
     public float jumpTime;
     private float jumpTimeCounter;
 
+    private bool stoppedJumping;
+    private bool canDoubleJump;
+
     private Rigidbody2D myRigidbody;
 
     public bool grounded;
@@ -31,6 +34,8 @@ public class Player_Controller : MonoBehaviour
         myAnimator = GetComponent<Animator>();
 
         jumpTimeCounter = jumpTime;
+
+        stoppedJumping = true;
     }
 
 
@@ -48,11 +53,22 @@ public class Player_Controller : MonoBehaviour
             if (grounded)
             {
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
+                stoppedJumping = false;
+            }
+
+            if(!grounded && canDoubleJump)
+            {
+                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
+                canDoubleJump = false;
+                stoppedJumping = false;
+                jumpTimeCounter = jumpTime;
+
+
             }
 
             myAnimator.SetFloat("Speed", myRigidbody.velocity.x);
         }
-        if (Input.GetKey (KeyCode.Space))
+        if (Input.GetKey (KeyCode.Space) && stoppedJumping == false)
         {
             if(jumpTimeCounter > 0)
             {
@@ -63,10 +79,12 @@ public class Player_Controller : MonoBehaviour
         if (Input.GetKeyUp (KeyCode.Space))
         {
             jumpTimeCounter = 0;
+            stoppedJumping = true;
         }
         if (grounded)
         {
             jumpTimeCounter = jumpTime;
+            canDoubleJump = true;
         }
     }
 }
