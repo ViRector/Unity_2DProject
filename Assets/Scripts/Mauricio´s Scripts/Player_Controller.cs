@@ -12,7 +12,7 @@ public class Player_Controller : MonoBehaviour
 
     private Rigidbody2D myRigidbody;
 
-    public bool grounded = false;
+    public bool grounded;
 
     public LayerMask whatIsGround;
     public Transform groundCheck;
