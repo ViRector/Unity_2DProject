@@ -19,6 +19,7 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.enemy3 = 0;
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.totalEnemyScore = 0;
+        GameManager.Instance.penalty = 0;
     }
 
     public void Restart()
@@ -32,6 +33,7 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.enemy3 = 0;
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.totalEnemyScore = 0;
+        GameManager.Instance.penalty = 0;
     }
 
     // Update is called once per frame

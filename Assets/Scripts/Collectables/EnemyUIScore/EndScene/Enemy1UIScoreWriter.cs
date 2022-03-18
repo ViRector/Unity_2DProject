@@ -2,21 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class RunScore : MonoBehaviour
+public class Enemy1UIScoreWriter : MonoBehaviour
 {
-    private Text texto;
-
-	/*void Start()
-    {
-        texto = GetComponent<Text>();
-    }
-
-    void Update()
-    {
-        texto.text = GameManager.Instance.runScore.ToString();
-
-    }*/
+	private Text texto;
 
 	[SerializeField] float delayBeforeStart = 0f;
 	[SerializeField] float timeBtwChars = 0.1f;
@@ -28,7 +18,7 @@ public class RunScore : MonoBehaviour
 	void Start()
 	{
 		texto = GetComponent<Text>();
-		texto.text = GameManager.Instance.runScore.ToString();
+		texto.text = GameManager.Instance.enemy1.ToString();
 
 		if (texto.text != null)
 		{
@@ -37,6 +27,13 @@ public class RunScore : MonoBehaviour
 
 			StartCoroutine("TypeWriterText");
 		}
+	}
+
+	void Update()
+	{
+		//texto.text = GameManager.Instance.enemy1.ToString();
+		/*StartCoroutine("TypeWriterText");
+		writer = texto.text;*/
 	}
 
 	IEnumerator TypeWriterText()
