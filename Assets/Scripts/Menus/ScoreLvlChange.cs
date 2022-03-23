@@ -5,13 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class ScoreLvlChange : MonoBehaviour
 {
+
+    public Animator transition;
+    public float transitionTime = 1f;
+
     public string menu;
     public string restart;
 
     public void Menu()
     {
 
-        SceneManager.LoadScene(menu);
+        //SceneManager.LoadScene(menu);
         GameManager.Instance.vida = 5;
         GameManager.Instance.runScore = 0;
         GameManager.Instance.enemy1 = 0;
@@ -20,12 +24,15 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.totalEnemyScore = 0;
         GameManager.Instance.penalty = 0;
+
+        StartCoroutine(Menuu());
+        //LoadMenu();
     }
 
     public void Restart()
     {
 
-        SceneManager.LoadScene(restart);
+        //SceneManager.LoadScene(restart);
         GameManager.Instance.vida = 5;
         GameManager.Instance.runScore = 0;
         GameManager.Instance.enemy1 = 0;
@@ -34,11 +41,76 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.totalEnemyScore = 0;
         GameManager.Instance.penalty = 0;
+
+        StartCoroutine(Restartt());
+        //LoadRestart();
     }
 
-    // Update is called once per frame
-    void Update()
+  
+
+    /*public void LoadMenu()
     {
-        
+        StartCoroutine(Menuu());
+    }*/
+
+    IEnumerator Menuu()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(menu);
     }
+
+    /*public void LoadRestart()
+    {
+        StartCoroutine(Restartt());
+    }*/
+
+    IEnumerator Restartt()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(restart);
+    }
+
+    /*public void LoadMenu()
+    {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadLevelMenu(SceneManager.LoadScene(menu)));
+    }
+
+    IEnumerator LoadLevelMenu(string menu)
+    {
+        //Play Animation
+        transition.SetTrigger("Start");
+
+        //Wait
+        yield return new WaitForSeconds(transitionTime);
+
+        //Load Scene
+        SceneManager.LoadScene(menu);
+    }
+
+    ///////
+    ///
+    public void LoadRestart()
+    {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadLevelRestart(SceneManager.LoadScene(restart)));
+    }
+
+    IEnumerator LoadLevelRestart(string restart)
+    {
+        //Play Animation
+        transition.SetTrigger("Start");
+
+        //Wait
+        yield return new WaitForSeconds(transitionTime);
+
+        //Load Scene
+        SceneManager.LoadScene(restart);
+    }*/
 }
