@@ -16,7 +16,7 @@ public class MenuLvlChange : MonoBehaviour
     }
     public void Empezar()
     {
-        StartCoroutine(Start());
+        StartCoroutine(StartGame());
         //SceneManager.LoadScene(nivel);
         Debug.Log("uwu");
     }
@@ -39,13 +39,13 @@ public class MenuLvlChange : MonoBehaviour
         }
     }*/
 
-    IEnumerator Start()
+    IEnumerator StartGame()
     {
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
 
-        SceneManager.LoadScene(nivel);
+        SceneManager.LoadScene("Game");
     }
 
     IEnumerator Quit()

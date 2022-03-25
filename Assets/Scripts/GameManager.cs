@@ -20,6 +20,14 @@ public class GameManager : MonoBehaviour
     public int enemiesDestroyed;
     public int totalEnemyScore;
     //
+    //High Score
+    public float highScore;
+
+    public float[] hScores;
+
+
+
+    //
     private void Awake()
     {
         if (Instance != null)
@@ -36,7 +44,10 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        
+        hScores[0] = 60;
+        hScores[1] = 40;
+        hScores[2] = 20;
+        hScores[3] = 0;
     }
 
     // Update is called once per frame

@@ -22,6 +22,43 @@ public class TotalScore : MonoBehaviour
 
         texto.text = total.ToString();
 
+        if (total > GameManager.Instance.highScore)
+        GameManager.Instance.highScore = total;
+        //
+        if (total > GameManager.Instance.hScores[3] && total < GameManager.Instance.hScores[2])
+        {
+            GameManager.Instance.hScores[3] = total;
+            Debug.Log("caso 1");
+        }
+
+        else if (total > GameManager.Instance.hScores[2] && total < GameManager.Instance.hScores[1])
+        {
+            GameManager.Instance.hScores[3] = GameManager.Instance.hScores[2];
+            GameManager.Instance.hScores[2] = total;
+            Debug.Log("caso 2");
+        }
+
+        else if (total > GameManager.Instance.hScores[1] && total < GameManager.Instance.hScores[0])
+        {
+            GameManager.Instance.hScores[3] = GameManager.Instance.hScores[2];
+            GameManager.Instance.hScores[2] = GameManager.Instance.hScores[1];
+            GameManager.Instance.hScores[1] = total;
+            Debug.Log("caso 3");
+        }
+
+        else if (total > GameManager.Instance.hScores[0]) // || < GameManager.Instance.hScores[0])
+        {
+            GameManager.Instance.hScores[3] = GameManager.Instance.hScores[2];
+            GameManager.Instance.hScores[2] = GameManager.Instance.hScores[1];
+            GameManager.Instance.hScores[1] = GameManager.Instance.hScores[0];
+            GameManager.Instance.hScores[0] = total;
+            Debug.Log("caso 4");
+        }
+
+
+        //
+
+
         if (texto.text != null)
         {
             writer = texto.text;
