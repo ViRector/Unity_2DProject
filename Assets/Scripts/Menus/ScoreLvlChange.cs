@@ -42,6 +42,10 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.totalEnemyScore = 0;
         GameManager.Instance.penalty = 0;
 
+        GameManager.Instance.counterT++;
+        GameManager.Instance.BGPlay = true;
+        Debug.Log("BGM Start");
+
         StartCoroutine(Restartt());
         //LoadRestart();
     }
@@ -59,6 +63,7 @@ public class ScoreLvlChange : MonoBehaviour
 
         yield return new WaitForSeconds(transitionTime);
 
+        GameManager.Instance.counterT++;
         SceneManager.LoadScene(menu);
     }
 
@@ -74,6 +79,7 @@ public class ScoreLvlChange : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(restart);
+        
     }
 
     /*public void LoadMenu()

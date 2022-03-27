@@ -14,6 +14,9 @@ public class LvlChange : MonoBehaviour
         if (GameManager.Instance.vida <= 0)
         {
             //SceneManager.LoadScene(nivel);
+            GameManager.Instance.counterF++;
+            GameManager.Instance.BGPlay = false;
+            Debug.Log("BGM False");
             LoadNextLevel();
         }
     }
@@ -45,6 +48,10 @@ public class LvlChange : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         //Load Scene
+        
+        Debug.Log("Load Score Scene");
         SceneManager.LoadScene(nivel);
+        
+        
     }
 }

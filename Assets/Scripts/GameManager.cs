@@ -22,11 +22,14 @@ public class GameManager : MonoBehaviour
     //
     //High Score
     public float highScore;
-
     public float[] hScores;
+    //
+    //Music
+    public bool BGPlay = false;
+    private AudioSource BGMusic;
 
-
-
+    public int counterT = 1;
+    public int counterF = 1;
     //
     private void Awake()
     {
@@ -53,6 +56,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if (BGPlay == true)
+        //BGMusic.Play();
     }
 }

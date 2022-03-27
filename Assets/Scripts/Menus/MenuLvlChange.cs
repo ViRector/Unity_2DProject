@@ -10,15 +10,22 @@ public class MenuLvlChange : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
+    [SerializeField] private AudioSource BGMusic;
+
     void start()
     {
         Debug.Log("Hola");
     }
     public void Empezar()
     {
+
+        GameManager.Instance.BGPlay = true;
+        Debug.Log("BGP true");
+
         StartCoroutine(StartGame());
         //SceneManager.LoadScene(nivel);
-        Debug.Log("uwu");
+        Debug.Log("Start Game Scene");
+      
     }
 
     public void Salir()

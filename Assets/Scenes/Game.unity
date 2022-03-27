@@ -3481,6 +3481,9 @@ MonoBehaviour:
   enemy3: 0
   enemiesDestroyed: 0
   totalEnemyScore: 0
+  highScore: 0
+  hScores: []
+  BGPlay: 0
 --- !u!4 &1553921027
 Transform:
   m_ObjectHideFlags: 0
