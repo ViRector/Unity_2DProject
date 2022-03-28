@@ -17,6 +17,10 @@ public class LvlChange : MonoBehaviour
             GameManager.Instance.counterF++;
             GameManager.Instance.BGPlay = false;
             Debug.Log("BGM False");
+
+            GameManager.Instance.SMPlay = true;
+            Debug.Log("SM True");
+            
             LoadNextLevel();
         }
     }

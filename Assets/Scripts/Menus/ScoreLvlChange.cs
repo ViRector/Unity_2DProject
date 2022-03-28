@@ -25,6 +25,13 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.totalEnemyScore = 0;
         GameManager.Instance.penalty = 0;
 
+        GameManager.Instance.SMPlay = false;
+        GameManager.Instance.counterST++;
+        GameManager.Instance.counterSF++;
+
+        GameManager.Instance.MMPlay = true;
+        Debug.Log("MM Start");
+
         StartCoroutine(Menuu());
         //LoadMenu();
     }
@@ -41,6 +48,10 @@ public class ScoreLvlChange : MonoBehaviour
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.totalEnemyScore = 0;
         GameManager.Instance.penalty = 0;
+
+        GameManager.Instance.SMPlay = false;
+        GameManager.Instance.counterST++;
+        GameManager.Instance.counterSF++;
 
         GameManager.Instance.counterT++;
         GameManager.Instance.BGPlay = true;

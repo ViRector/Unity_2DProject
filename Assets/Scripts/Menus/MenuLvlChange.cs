@@ -16,11 +16,28 @@ public class MenuLvlChange : MonoBehaviour
     {
         Debug.Log("Hola");
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Empezar();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Salir();
+        }
+    }
+
     public void Empezar()
     {
 
         GameManager.Instance.BGPlay = true;
         Debug.Log("BGP true");
+
+        GameManager.Instance.MMPlay = false;
+        Debug.Log("MMP False");
+        GameManager.Instance.counterMT++;
 
         StartCoroutine(StartGame());
         //SceneManager.LoadScene(nivel);

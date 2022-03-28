@@ -26,10 +26,18 @@ public class GameManager : MonoBehaviour
     //
     //Music
     public bool BGPlay = false;
-    private AudioSource BGMusic;
+    //private AudioSource BGMusic;
 
     public int counterT = 1;
     public int counterF = 1;
+
+    public bool MMPlay = true;
+    public int counterMT = 1;
+    public int counterMF = 1;
+
+    public bool SMPlay = false;
+    public int counterST = 1;
+    public int counterSF = 1;
     //
     private void Awake()
     {
