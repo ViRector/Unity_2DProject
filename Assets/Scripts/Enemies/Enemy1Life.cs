@@ -7,6 +7,8 @@ public class Enemy1Life : MonoBehaviour
     public int EnemyScore;
     public int vida;
 
+    [SerializeField] private AudioSource EnemyD_SFX;
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Bullet")
@@ -28,6 +30,8 @@ public class Enemy1Life : MonoBehaviour
             this.gameObject.SetActive(false);
             GameManager.Instance.enemy1++;
             GameManager.Instance.enemiesDestroyed++;
+            GameManager.Instance.ED_SFX = true;
+            //EnemyD_SFX.Play();
         }
     }
 }

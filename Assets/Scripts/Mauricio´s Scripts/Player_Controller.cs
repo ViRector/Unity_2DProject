@@ -25,6 +25,9 @@ public class Player_Controller : MonoBehaviour
 
     private Animator myAnimator;
 
+    [SerializeField] private AudioSource JumpSFX;
+
+
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -52,12 +55,16 @@ public class Player_Controller : MonoBehaviour
         {
             if (grounded)
             {
+                JumpSFX.Play();
+
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
                 stoppedJumping = false;
             }
 
             if(!grounded && canDoubleJump)
             {
+                JumpSFX.Play();
+
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
                 canDoubleJump = false;
                 stoppedJumping = false;

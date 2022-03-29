@@ -38,6 +38,11 @@ public class GameManager : MonoBehaviour
     public bool SMPlay = false;
     public int counterST = 1;
     public int counterSF = 1;
+
+    //
+    //SFX
+    public bool ED_SFX = false;
+    public bool GameOver_SFX = false;
     //
     private void Awake()
     {

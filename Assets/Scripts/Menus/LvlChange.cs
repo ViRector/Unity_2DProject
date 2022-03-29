@@ -8,18 +8,24 @@ public class LvlChange : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
     public string nivel;
+    [SerializeField] private AudioSource DeathSFX;
 
     void Update()
     {
         if (GameManager.Instance.vida <= 0)
         {
             //SceneManager.LoadScene(nivel);
+            GameManager.Instance.GameOver_SFX = true;
+            //DeathSFX.Play();
             GameManager.Instance.counterF++;
             GameManager.Instance.BGPlay = false;
             Debug.Log("BGM False");
 
-            GameManager.Instance.SMPlay = true;
-            Debug.Log("SM True");
+            
+            //
+            //SoundEffects.PlaySound("Death");
+            //
+            
             
             LoadNextLevel();
         }
@@ -46,6 +52,9 @@ public class LvlChange : MonoBehaviour
     IEnumerator ToScore()
     {
         //Play Animation
+        GameManager.Instance.SMPlay = true;
+        Debug.Log("SM True");
+
         transition.SetTrigger("Start");
 
         //Wait
@@ -55,7 +64,9 @@ public class LvlChange : MonoBehaviour
         
         Debug.Log("Load Score Scene");
         SceneManager.LoadScene(nivel);
+
         
-        
+
+
     }
 }

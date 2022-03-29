@@ -112,6 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyScore: 0
   vida: 2
+  EnemyD_SFX: {fileID: 0}
 --- !u!61 &3065046695721318848
 BoxCollider2D:
   m_ObjectHideFlags: 0

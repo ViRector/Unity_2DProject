@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class RedMarksUI : MonoBehaviour
 {
+    [SerializeField] private AudioSource HeartObtSFX;
+
     void Update()
     {
         for (int i = 0; i < GameManager.Instance.enemiesDestroyed; i++)
@@ -27,5 +29,6 @@ public class RedMarksUI : MonoBehaviour
     {
         GameManager.Instance.enemiesDestroyed = 0;
         GameManager.Instance.vida++;
+        HeartObtSFX.Play();
     }
 }

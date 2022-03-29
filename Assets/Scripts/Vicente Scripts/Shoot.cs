@@ -10,6 +10,8 @@ public class Shoot : MonoBehaviour
 
     public int Penalty;
 
+    [SerializeField] private AudioSource ShootSFX;
+
     // Update is called once per frame
     void Start()
     {
@@ -21,6 +23,7 @@ public class Shoot : MonoBehaviour
         if(Input.GetButtonDown("Fire1"))
         {
             Debug.Log("Shot");
+            ShootSFX.Play();
             Instantiate(ProjectilePref, ShootPoint.position, ProjectilePref.rotation);
             GameManager.Instance.penalty -= Penalty;
             //GameManager.Instance.runScore -= GameManager.Instance.penalty;

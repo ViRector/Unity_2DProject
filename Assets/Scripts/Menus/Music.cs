@@ -8,8 +8,9 @@ public class Music : MonoBehaviour
 
     [SerializeField] private AudioSource BGMusic, MenuMusic, ScoreMusic;
 
-    
-   
+    [SerializeField] private AudioSource EnemyD, GameOver;
+
+
 
     private void Awake()
     {
@@ -69,6 +70,18 @@ public class Music : MonoBehaviour
             GameManager.Instance.counterSF--;
         }
 
+        if (GameManager.Instance.GameOver_SFX == true)
+        {
+            //StartGM_SFX();
+            
+        }
+
+        if (GameManager.Instance.ED_SFX == true)
+        {
+            //StartED_SFX();
+           
+        }
+
     }
 
     public void PlayingBGM()
@@ -111,6 +124,18 @@ public class Music : MonoBehaviour
         AudioListener.volume = value;
     }
 
+    public void StartGM_SFX()
+    {
+        GameOver.Play();
+        GameManager.Instance.ED_SFX = false;
+    }
+
+    public void StartED_SFX()
+    {
+        EnemyD.Play();
+        GameManager.Instance.GameOver_SFX = false;
+    }
+
     /*
     public int counterMT = 1;
     public int counterMF = 1;
@@ -119,4 +144,7 @@ public class Music : MonoBehaviour
     public int counterSF = 1;
      
      */
+
+    // GameManager.Instance.GameOver_SFX = true;
+    // GameManager.Instance.ED_SFX = true;
 }
