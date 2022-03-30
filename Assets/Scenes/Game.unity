@@ -1256,6 +1256,8 @@ MonoBehaviour:
   transitionTime: 2
   nivel: EndScene
   DeathSFX: {fileID: 100331070}
+  points: 10
+  points2: 25
 --- !u!1 &556839876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,7 +3495,9 @@ MonoBehaviour:
   enemy3: 0
   enemiesDestroyed: 0
   totalEnemyScore: 0
-  highScore: 0
+  totalScore: 0
+  enemy1MScore: 0
+  enemy2MScore: 0
   hScores: []
   BGPlay: 0
   counterT: 1

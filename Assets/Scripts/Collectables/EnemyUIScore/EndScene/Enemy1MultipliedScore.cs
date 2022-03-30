@@ -25,8 +25,14 @@ public class Enemy1MultipliedScore : MonoBehaviour
 
         total = kills * points;
 
-        GameManager.Instance.totalEnemyScore += total;
+        //print("Enemy 1 = " + total);
+
+        //GameManager.Instance.totalEnemyScore += total;
         texto.text = total.ToString();
+
+        //GameManager.Instance.enemy1MScore = total;
+
+        //print("1 TEnemyScore = " + GameManager.Instance.totalEnemyScore);
 
         if (texto.text != null)
         {

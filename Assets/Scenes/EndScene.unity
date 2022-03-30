@@ -1548,13 +1548,27 @@ MonoBehaviour:
   score: 0
   vida: 0
   currency: 0
-  runScore: 780
+  runScore: 0
   penalty: 0
-  enemy1: 4
-  enemy2: 7
-  enemy3: 2
+  enemy1: 0
+  enemy2: 0
+  enemy3: 0
   enemiesDestroyed: 0
   totalEnemyScore: 0
+  totalScore: 0
+  highScore: 0
+  hScores: []
+  BGPlay: 0
+  counterT: 1
+  counterF: 1
+  MMPlay: 1
+  counterMT: 1
+  counterMF: 1
+  SMPlay: 0
+  counterST: 1
+  counterSF: 1
+  ED_SFX: 0
+  GameOver_SFX: 0
 --- !u!4 &546665964
 Transform:
   m_ObjectHideFlags: 0

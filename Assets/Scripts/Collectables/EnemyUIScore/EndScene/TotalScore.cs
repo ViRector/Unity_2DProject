@@ -18,12 +18,41 @@ public class TotalScore : MonoBehaviour
     void Start()
     {
         texto = GetComponent<Text>();
-        total += GameManager.Instance.totalEnemyScore + GameManager.Instance.runScore;
+        ScoresCount();
+    }
 
-        texto.text = total.ToString();
+    /*void Update()
+    {
+        print("2 = " + GameManager.Instance.enemy2MScore);
+        //texto.text = total.ToString();
 
-        if (total > GameManager.Instance.highScore)
-        GameManager.Instance.highScore = total;
+    }*/
+
+
+    private void ScoresCount()
+    {
+        //yield return new WaitForSeconds(1f);
+        //----total = GameManager.Instance.totalEnemyScore + GameManager.Instance.runScore;
+        //print("Enemy Score = " + GameManager.Instance.totalEnemyScore);
+        //print("Enemy Score = " + GameManager.Instance.totalEnemyScore);
+        //print("Enemy Score = " + GameManager.Instance.totalEnemyScore);
+        //print("Run Score = " + GameManager.Instance.runScore);
+        //print("Total Score = " + (GameManager.Instance.totalEnemyScore + GameManager.Instance.runScore));
+
+        //----GameManager.Instance.totalScore = total;
+
+        total = GameManager.Instance.enemy1MScore + GameManager.Instance.enemy2MScore + GameManager.Instance.runScore;
+        print("Total = " + (GameManager.Instance.enemy1MScore + GameManager.Instance.enemy2MScore + GameManager.Instance.runScore));
+        print("2 = " + GameManager.Instance.enemy2MScore);
+
+
+        GameManager.Instance.totalScore = total;
+
+
+        texto.text = GameManager.Instance.totalScore.ToString();
+
+        //if (total > GameManager.Instance.highScore)
+        //GameManager.Instance.highScore = total;
         //
         if (total > GameManager.Instance.hScores[3] && total < GameManager.Instance.hScores[2])
         {
@@ -67,12 +96,6 @@ public class TotalScore : MonoBehaviour
             StartCoroutine("TypeWriterText");
         }
     }
-
-    /*void Update()
-    {
-        texto.text = total.ToString();
-
-    }*/
 
     IEnumerator TypeWriterText()
     {

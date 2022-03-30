@@ -21,14 +21,41 @@ public class LvlChange : MonoBehaviour
             GameManager.Instance.BGPlay = false;
             Debug.Log("BGM False");
 
-            
+
             //
             //SoundEffects.PlaySound("Death");
             //
-            
-            
+
+            ScoreCount();
             LoadNextLevel();
+
         }
+    }
+
+
+    public int points;
+    private int kills;
+    private int total;
+
+    public int points2;
+    private int kills2;
+    private int total2;
+
+    public void ScoreCount()
+    {
+
+        kills = GameManager.Instance.enemy1;
+        total = kills * points;
+        GameManager.Instance.enemy1MScore = total;
+        Debug.Log("1 = " + GameManager.Instance.enemy1MScore);
+
+        kills2 = GameManager.Instance.enemy2;
+        total2 = kills2 * points2;
+        GameManager.Instance.enemy2MScore = total2;
+        Debug.Log("Kills/GameManager.Instance.enemy2 = " + GameManager.Instance.enemy2);
+        Debug.Log("points = " + points2);
+        Debug.Log("2 = " + GameManager.Instance.enemy2MScore);
+
     }
 
     public void LoadNextLevel()

@@ -19,9 +19,14 @@ public class GameManager : MonoBehaviour
     public int enemy3;
     public int enemiesDestroyed;
     public int totalEnemyScore;
+
+    public float totalScore;
+
+    public int enemy1MScore;
+    public int enemy2MScore;
     //
     //High Score
-    public float highScore;
+    //public float highScore;
     public float[] hScores;
     //
     //Music
@@ -60,9 +65,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        hScores[0] = 60;
-        hScores[1] = 40;
-        hScores[2] = 20;
+        hScores[0] = 860;
+        hScores[1] = 640;
+        hScores[2] = 420;
         hScores[3] = 0;
     }
 
