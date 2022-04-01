@@ -6,6 +6,7 @@ public class Enemy1Life : MonoBehaviour
 {
     public int EnemyScore;
     public int vida;
+    public int vidaMax;
 
     [SerializeField] private AudioSource EnemyD_SFX;
 
@@ -32,6 +33,8 @@ public class Enemy1Life : MonoBehaviour
             GameManager.Instance.enemiesDestroyed++;
             GameManager.Instance.ED_SFX = true;
             //EnemyD_SFX.Play();
+            vida = vidaMax;
+            
         }
     }
 }

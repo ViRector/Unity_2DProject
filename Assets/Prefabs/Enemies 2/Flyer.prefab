@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyScore: 0
   vida: 1
+  vidaMax: 1
   EnemyD_SFX: {fileID: 0}
 --- !u!114 &7281564492151384252
 MonoBehaviour:

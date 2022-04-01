@@ -5,8 +5,9 @@ using UnityEngine;
 public class Enemy2Life : MonoBehaviour
 {
     public int EnemyScore;
-    public int vida;
-
+    public int vida ;
+    public int vidaMax;
+    
     [SerializeField] private AudioSource EnemyD_SFX;
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -32,6 +33,7 @@ public class Enemy2Life : MonoBehaviour
             GameManager.Instance.enemiesDestroyed++;
             GameManager.Instance.ED_SFX = true;
             //EnemyD_SFX.Play();
-        }
+            vida = vidaMax;
+        }       
     }
 }
