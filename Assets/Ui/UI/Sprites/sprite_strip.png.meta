@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: c8b77145d9affcb4ca365dde78f37ef8
+guid: 2a6df630b159546488bcd8a690c7a37f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5656351204813868483
-    second: Mage
+      213: -3855845679864308000
+    second: sprite_strip_0
   - first:
-      213: 4365902662755674091
-    second: Flyer
+      213: 1863614895335197409
+    second: sprite_strip_1
   - first:
-      213: -6155222795972653463
-    second: Shieldy
+      213: -6054948777036847236
+    second: sprite_strip_2
+  - first:
+      213: -6527213723153396378
+    second: sprite_strip_3
+  - first:
+      213: -7666424871522653899
+    second: sprite_strip_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +47,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -55,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mage
+      name: sprite_strip_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 50
-        height: 50
+        x: 80
+        y: 100
+        width: 308
+        height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd88cfb3756f7e40800000000000000
-      internalID: 5656351204813868483
+      spriteID: 0ee96f688c84d7ac0800000000000000
+      internalID: -3855845679864308000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flyer
+      name: sprite_strip_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 50
-        height: 50
+        x: 656
+        y: 112
+        width: 308
+        height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be7eb79175dc69c30800000000000000
-      internalID: 4365902662755674091
+      spriteID: 1eac49a9fd3ecd910800000000000000
+      internalID: 1863614895335197409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shieldy
+      name: sprite_strip_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 50
+        x: 1234
+        y: 112
+        width: 308
+        height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +162,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96ec9a49a71449aa0800000000000000
-      internalID: -6155222795972653463
+      spriteID: c776883fa2088fba0800000000000000
+      internalID: -6054948777036847236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_strip_3
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 112
+        width: 310
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d036293bdaa65a0800000000000000
+      internalID: -6527213723153396378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_strip_4
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 112
+        width: 308
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5392ca3a2336b9590800000000000000
+      internalID: -7666424871522653899
       vertices: []
       indices: 
       edges: []
