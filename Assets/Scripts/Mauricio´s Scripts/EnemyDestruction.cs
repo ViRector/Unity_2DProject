@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDestruction : MonoBehaviour
 {
-
+    public Enemy2Life reinicioVida;
     public GameObject EnemyDestructionPoint;
 
     // Start is called before the first frame update
@@ -23,7 +23,11 @@ public class EnemyDestruction : MonoBehaviour
         {
             //Destroy(gameObject);
 
+            reinicioVida = FindObjectOfType<Enemy2Life>();
+            reinicioVida.vida = reinicioVida.vidaMax;
             gameObject.SetActive(false);
+            
+            
         }
     }
 }
