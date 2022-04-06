@@ -48,7 +48,6 @@ public class Player_Controller : MonoBehaviour
         // grounded = Physics2D.IsTouchingLayers(myCollider, whatIsGround); //
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        myAnimator.SetBool("GroundCheck", grounded);
 
         myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
 
